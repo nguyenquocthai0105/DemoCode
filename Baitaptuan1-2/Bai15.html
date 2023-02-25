@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <TItle>Tạo FORM</TItle>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <fieldset>
+            <legend>Your Message:</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" name="txtTo" readonly="readonly" id="emailTo" size="20" value="Example Cafe"></td>
+                </tr>
+                <tr>
+                    <td><label for="emailForm">Your Email</label></td>
+                    <td><input type="text" name="txtForm" id="txtForm" size="20" tabindex="1" maxlength="250"></td>
+                </tr>
+                <tr>
+                    <td><label for="emailBody">Message</label></td>
+                    <td><textarea name="txtBody" id="emailBody" cols="50" rows="10" tabindex="2"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>How you found us</legend>
+            <table>
+                <tr>
+                    <td><label for="txtLBox">How did you hear of us</label></td>
+                    <td><select name="ListBox" id="txtLBox"><option>Google</option></select></td>
+                </tr>
+                <tr>
+                    <td><label for="checkBox">Newsletter</label></td>
+                    <td><input type="checkbox">Ensure this box is checked if you would like to receive email updates</td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Send Message">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td><label for="txtFirst">First name:</label></td>
+                    <td><input type="text" name="txtFirst" id="txtFirst" readonly="readonly" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last name:</label></td>
+                    <td><input type="text" name="txtTo" id="lastName" readonly="readonly" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="txtE">E-mail:</label></td>
+                    <td><input type="text" name="txtE" id="txtE" size="20" readonly="readonly"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Competition Question</legend>
+            <table>
+                <tr>
+                    <td><label for="txtH">How tall is the Eiffel Tower in Paris, France?</label></td>
+                </tr>
+                <tr>
+                   <td><input type="radio">584 ft</td> 
+                </tr>
+                <tr>
+                   <td><input type="radio">784 ft</td> 
+                </tr>
+                <tr>
+                   <td><input type="radio">984 ft</td> 
+                </tr><tr>
+                   <td><input type="radio">1184 ft</td> 
+                </tr>
+            </table>            
+        </fieldset>
+        <fieldset>
+            <legend>Tiebraaker Qúetion</legend>
+            <table>
+                <tr>
+                    In 25 words or less, say why you would like to win $10,000:
+                    <td><textarea name="" id="" cols="40" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Enter competition</legend>
+            <input type="submit" value="Enter Competition">
+        </fieldset>
+    </body>
+</html>
